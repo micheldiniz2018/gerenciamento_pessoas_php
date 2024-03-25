@@ -1,0 +1,22 @@
+{
+    "name": "miche/gerenciamento_pessoas_php",
+    "autoload": {
+        "psr-4": {
+            "public\\": "public\\",
+            "app\\": "app\\",
+            "routes\\": "routes\\"
+        },
+        "files": [
+            "app\\helpers\\connections.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "micheldiniz",
+            "email": "michel@micheldiniz.com"
+        }
+    ],
+    "require": {
+        "php" : "8.1"
+    }
+}
